@@ -16,3 +16,21 @@ This interactive dashboard provides a dynamic and comprehensive overview of the 
 **3. Average Score by Gender (Bottom-Left):**
 - The bar chart compares the average overall scores between male and female students. Similar to the static dashboard, it shows male students having a slightly higher average score than female students.
 - **Interactivity:** Tooltips provide exact average scores for each gender.
+### How to Run This Project
+
+To run this data analysis project, follow these steps:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/your-username/your-repo-name.git
+    ```
+    (Or, if you prefer, download the `.zip` file directly from GitHub.)
+
+2.  **Open in Google Colab:** Upload the `vocational_training_centre_analytics.ipynb` file to Google Colab.
+
+3.  **Install Dependencies:** Ensure all required libraries are installed by running the first code cell in the notebook:
+    ```python
+    !pip install plotly openpyxl -q
+    ```
+
+4.  **Execute the Notebook:** Run all cells in the notebook from top to bottom. This will load the data, perform the analysis, generate visualizations, and create the dashboards.
